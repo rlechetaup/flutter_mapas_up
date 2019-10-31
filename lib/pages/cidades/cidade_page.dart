@@ -143,7 +143,7 @@ class _CidadePageState extends State<CidadePage> with TickerProviderStateMixin {
     return Align(
       alignment: alignment,
       child: IconButton(
-        icon: Icon(Icons.zoom_in, color: Color(0xff6200ee)),
+        icon: Icon(icon, color: Color(0xff6200ee)),
         onPressed: () async {
           // Incrementa
           _zoom += value;
